@@ -1,0 +1,490 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+#header{
+  height: 100vh;
+  background-image: url(img/bakg.png);
+  background-position: center;
+  background-size: cover;
+}
+body {
+  background-image: url('img/bg.png') ;
+  background-repeat: no-repeat;
+  color: #1A0004;
+  font-family: sans-serif;
+  background-color: #FEE9D6;
+}
+#main_title{
+  font-size: 80px;
+  margin-top: 2px;
+  font-family: Impact, black, sans-serif;
+  letter-spacing: 0px;
+  word-spacing: -0.2px;
+  color: black;
+  font-weight: 400;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-align: center;
+  flex-direction: column;
+}
+#line1{
+  border: 5px solid black;
+  border-radius: 2px;
+}
+#first_sent{
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 35px;
+  letter-spacing: -1px;
+  word-spacing: -0.2px;
+  color: ;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+
+}
+#sec_sent{
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 28px;
+  letter-spacing: -1px;
+  word-spacing: -0.2px;
+  color: #5A352C;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+#go{
+  text-align: center;
+  text-align: center;
+  color: black;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 28px;
+  letter-spacing: -1px;
+  word-spacing: -0.2px;
+  color: #b0733e;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+
+div.contrast{
+  color: black;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#heading1{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 35px;
+  letter-spacing: -0.4px;
+  word-spacing: -0.2px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+#form{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 35px;
+  letter-spacing: -0.4px;
+  word-spacing: -0.2px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #FEE9D6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]{
+  background-color: black;
+  color: white;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #FEE9D6;
+  padding: 20px;
+  max-width: 100%;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: black;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: black;
+  color: white;
+}
+.fa-instagram{
+  background: black;
+  color:white;
+}
+.navbar-brand{
+  font-size: 40px;
+  font-weight: 700;
+}
+video{
+  border: none;
+  flex-direction: column;
+  margin-left: 20px;
+  display: flex;
+
+}
+.container{
+  background-color: #FEE9D6;
+  align-items: center;
+  flex-direction: column;
+}
+
+li.nav-item active{
+  font-weight: 500px;
+}
+#here{
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 80px;
+  letter-spacing: -0.4px;
+  word-spacing: -0.2px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+#ba{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 30px;
+  letter-spacing: -0.4px;
+  word-spacing: -0.2px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 1005;
+}
+#rl{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 30px;
+  letter-spacing: -0.4px;
+  word-spacing: -0.2px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 100%;
+
+}
+#ow{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 30px;
+  letter-spacing: -0.4px;
+  word-spacing: -0.2px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 100%;
+
+}
+#first_uni{
+  width: 300px;
+  height: 425.17px;
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  align-items: center;
+}
+#second_uni{
+  width: 326.3px;
+  height: 425.17px;
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  align-items: center;
+
+}
+#third_uni{
+  width: 326.3px;
+  height: 435.17px;
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  align-items: center;
+
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+
+
+.hcol-md-10{
+  display: block;
+}
+
+.container{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+header{
+  padding-top:30px;
+  min-height: 50px;
+  margin: 0;
+  float: right;
+}
+
+header li{
+  float: right;
+  display: inline;
+  padding: 0 20px 0 20px;
+  margin: 0;
+  font-size: 20px;
+
+}
+
+.navbar navbar-expand-lg navbar-light bg-transparent{
+  float: right;
+  margin-top: 10px;
+  margin: 0;
+}
+.navbar-brand{
+  float: right;
+  margin: 0;
+}
+#contact{
+  margin-left: 10px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 40px;
+  letter-spacing: -0.2px;
+  word-spacing: -1.4px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#email1{
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 24px;
+  letter-spacing: -0.2px;
+  word-spacing: -1.4px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  margin-right:20px;
+  text-align: center;
+}
+#email2{
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  word-spacing: -1.4px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-align: center;
+
+}
+#pn{
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 24px;
+  letter-spacing: -0.2px;
+  word-spacing: -1.4px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  margin-left: 20px;
+  text-align: center;
+
+}
+#pn2{
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  word-spacing: -1.4px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  margin-left: 120px;
+
+}
+.icon{
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+#emailp{
+  margin-right: 50px;
+  width:50px;
+  height:56px;
+  margin-left: 160px;
+  flex-direction: column;
+}
+#pnp{
+  margin-right: 70px;
+  width:50px;
+  height:56px;
+  margin-left: 160px;
+  display: flex;
+  flex-direction: column;
+}
+.middle{
+  width: 100%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+#logo{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#pink{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 35px;
+  letter-spacing: -0.4px;
+  word-spacing: -0.2px;
+  color: #CFB79E;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+#capital{
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 28px;
+  letter-spacing: -1px;
+  word-spacing: -0.2px;
+  color: #5A352C;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+#capital1{
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 28px;
+  letter-spacing: -1px;
+  word-spacing: -0.2px;
+  color: #B20707;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+#goe{
+  text-align: center;
+  text-align: center;
+  color: black;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 28px;
+  letter-spacing: -1px;
+  word-spacing: -0.2px;
+  color: #b0733e;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}

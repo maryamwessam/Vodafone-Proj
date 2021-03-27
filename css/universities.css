@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#header{
+  height: 100vh;
+  background-image: url(img/BACK.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+body {
+  background-image: url('img/BACK.png') ;
+  background-repeat: repeat;
+  color: #1A0004;
+  font-family: sans-serif;
+  background-color: #FEE9D6;
+  min-width: 100%;
+}
+li.nav-item active{
+  font-weight: 500px;
+  color: white;
+}
+li.nav-item{
+  color: white;
+}
+header{
+  padding-top:30px;
+  min-height: 50px;
+  margin: 0;
+  float: right;
+  flex-direction: column;
+}
+
+header li{
+  float: right;
+  display: inline;
+  padding: 0 20px 0 20px;
+  margin: 0;
+  font-size: 20px;
+
+}
+
+.navbar navbar-expand-lg navbar-light bg-transparent{
+  float: right;
+  margin-top: 10px;
+  margin: 0;
+}
+.navbar-brand{
+  float: right;
+  margin: 0;
+}
+
+#logo{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#main_title{
+  font-size: 70px;
+  margin-top: 2px;
+  font-family: Impact, black, sans-serif;
+  letter-spacing: 0px;
+  word-spacing: -0.2px;
+  color: black;
+  font-weight: 400;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-align: center;
+  flex-direction: column;
+  max-width: 100%;
+}
+.card-text{
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 20px;
+}
+.card-title{
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.card{
+  background-color: white;
+}
+.custom{
+    background-color:white;
+    border: black solid 3px;
+}
